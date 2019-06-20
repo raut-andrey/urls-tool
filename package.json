@@ -1,0 +1,27 @@
+{
+  "name": "urls-tool",
+  "version": "1.0.0",
+  "description": "Tool for simple work with url, params, hash",
+  "main": "index.js",
+  "scripts": {
+    "test": "-"
+  },
+  "bugs": {
+    "url": "https://github.com/raut-andrey/urls-tool/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raut-andrey/urls-tool.git"
+  },
+  "homepage": "https://github.com/raut-andrey/urls-tool",
+  "keywords": [
+    "url",
+    "params",
+    "hash",
+    "query",
+    "href",
+    "path"
+  ],
+  "author": "andrey-raut",
+  "license": "ISC"
+}

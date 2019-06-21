@@ -2,7 +2,7 @@ class Url {
   static getParams() {
     try {
       if (!window.location.search) {
-        return { arr: [], obj: {}, string: '' };
+        return { array: [], object: {}, string: '' };
       }
       const paramsString = window.location.search.substring(1);
       const paramsArray = paramsString.split('&');
@@ -16,10 +16,10 @@ class Url {
         paramsObject[name] = value;
       }
 
-      return { arr: paramsArray, obj: paramsObject, string: paramsString };
+      return { array: paramsArray, object: paramsObject, string: paramsString };
     } catch (err) {
       console.log('Error in Url.getParams method:', err);
-      return { arr: [], obj: {}, string: '' };
+      return { array: [], object: {}, string: '' };
     }
   }
 

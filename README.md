@@ -1,9 +1,7 @@
 # urls-tool
-----
 A little script that will help you work with the url `path` / `params` / `hash` without reloading the page.
 
 ## Installing
-----
 Using npm:
 ```
 $ npm install urls-tool
@@ -15,7 +13,6 @@ $ yarn add urls-tool
 ```
 
 ## Example
-----
 #### Easily get or change url pathname.
 ```
 import Url from "urls-tool";
@@ -57,5 +54,4 @@ Url.pathname = "your path name";
 // Hash will be changed. And you don't need to add "#"
 ```
 ## License
-----
 ISC

@@ -1,8 +1,8 @@
-#urls-tool
+# urls-tool
 ----
 A little script that will help you work with the url `path` / `params` / `hash` without reloading the page.
 
-##Installing
+## Installing
 ----
 Using npm:
 ```
@@ -14,9 +14,9 @@ Using yarn:
 $ yarn add urls-tool
 ```
 
-##Example
+## Example
 ----
-####Easily get or change url pathname.
+#### Easily get or change url pathname.
 ```
 import Url from "urls-tool";
 
@@ -27,7 +27,7 @@ Url.pathname = "your path name";
 // Pathname will be changed.
 
 ```
-####Effortlessly get or set (just one or all at once) params
+#### Effortlessly get or set (just one or all at once) params
 ```
 import Url from "urls-tool";
 
@@ -46,7 +46,7 @@ Url.params = ["paramsName", "paramsValue"];
 Url.params = { "paramsName": "paramsValue" };
 // Use to set all params at once. All params will be cleared in case of an empty object.
 ```
-####No problem get or set the hash
+#### No problem get or set the hash
 ```
 import Url from "urls-tool";
 
@@ -56,6 +56,6 @@ const { hash } = Url;
 Url.pathname = "your path name";
 // Hash will be changed. And you don't need to add "#"
 ```
-##License
+## License
 ----
 ISC

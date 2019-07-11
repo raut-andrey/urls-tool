@@ -1,6 +1,12 @@
 {
   "name": "urls-tool",
-  "version": "1.0.0",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "version": [
+    "1.0.0",
+    "1.0.1"
+  ],
   "description": "Tool for simple work with url, params, hash",
   "main": "index.js",
   "scripts": {
@@ -23,5 +29,6 @@
     "path"
   ],
   "author": "andrey-raut",
+  "readmeFilename": "README.md",
   "license": "ISC"
 }

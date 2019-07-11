@@ -24,7 +24,7 @@ class Url {
   }
 
   static get params() {
-    return this.getParams().obj;
+    return this.getParams().object;
   }
 
   static set params(arg = []) {
@@ -35,7 +35,7 @@ class Url {
         const [name, value] = arg;
         if (!name) { return; }
 
-        obj = this.getParams().obj;
+        obj = this.getParams().object;
 
         obj[name] = value;
 

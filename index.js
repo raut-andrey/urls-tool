@@ -51,10 +51,8 @@ class Url {
       ));
 
       window.history.pushState(null, null, `${window.location.pathname}${arr.length ? '?' : ''}${arr.join('&')}${window.location.hash}`);
-      return true;
     } catch (err) {
       console.log('Error in Url.params(set) method:', err);
-      return false;
     }
   }
 
